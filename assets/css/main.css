@@ -3822,7 +3822,7 @@
 				padding: 3em 0 1em 0;
 			}
 
-		}
+		
 
 /* Cropping Logo */
 
@@ -3831,5 +3831,13 @@
 position: absolute;
 
 clip: rect(100px,0px,0px,100px);
+
+}
+
+#logo {display: block;}
+
+@media screen and (max-width: 768px) {
+
+#logo {display: none;}
 
 }
